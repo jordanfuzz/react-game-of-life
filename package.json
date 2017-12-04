@@ -14,10 +14,12 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "node node_modules/mocha/bin/mocha **/*.specs.js",
+    "test-teamcity": "npm run test -- --reporter mocha-teamcity-reporter",
     "eject": "react-scripts eject"
   },
   "devDependencies": {
     "chai": "^4.1.2",
-    "mocha": "^4.0.1"
+    "mocha": "^4.0.1",
+    "mocha-teamcity-reporter": "^1.1.1"
   }
 }

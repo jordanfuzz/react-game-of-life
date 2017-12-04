@@ -102,5 +102,10 @@ describe('game-engine',() => {
                 [1,1,1]
             ]))
         })
+
+      it('should live', () => {
+          expect(false).to.be.true
+      })
     })
+
 })

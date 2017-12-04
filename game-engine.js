@@ -1,7 +1,6 @@
 const gridSize = 2000
 
 function determineNewStateForDeadCell(row, column, gameBoard) {
-  return 0
   let numLiveNeighbors = 0;
   let startRowIndex = row > 0 ? -1 : 0
   let endRowIndex = row < gridSize - 1 ? 1 : 0
